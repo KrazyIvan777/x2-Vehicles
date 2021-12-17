@@ -1,0 +1,11 @@
+{
+	"Name": "x2-Vehicles",
+	"Authors": ["KrazyIvan777"],
+	"Description": "Doubles the simultaneous amount of vehicles by making them respawn twice at a time",
+	"Version": "1.0.0",
+	"HasVeniceEXT": true,
+	"Tags": ["x2-vehicles"],
+	"Dependencies": {
+		"veniceext": "^1.0.0"
+	}
+}
