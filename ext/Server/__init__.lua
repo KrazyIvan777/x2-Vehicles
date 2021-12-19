@@ -11,9 +11,9 @@ Events:Subscribe('Partition:Loaded', function(partition)
 				instance = VehicleSpawnReferenceObjectData(instance)
 				instance:MakeWritable()
 				instance.applyDamageToAbandonedVehicles = true
-				instance.maxCount = -1
+				instance.maxCount = 0
 				instance.maxCountSimultaneously = 2
-				instance.totalCountSimultaneouslyOfType = -1
+				instance.totalCountSimultaneouslyOfType = 8
 				instance.autoSpawn = true
 				instance.spawnDelay = 30
 				instance.initialSpawnDelay = 2
